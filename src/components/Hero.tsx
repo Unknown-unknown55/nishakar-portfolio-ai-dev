@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
         {/* Profile Image */}
         <div className="relative inline-block">
@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
 
         {/* Social Links */}
-        <div className="flex justify-center space-x-6 pt-8 animate-fade-in">
+        <div className="flex justify-center space-x-6 pt-8 animate-fade-in pb-16">
           <a
             href="https://github.com/NISHAKAR06"
             target="_blank"
@@ -80,12 +80,12 @@ const Hero = () => {
             <Linkedin className="w-6 h-6" />
           </a>
         </div>
+      </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-muted-foreground rounded-2xl flex justify-center">
-            <div className="w-1 h-3 bg-muted-foreground rounded-full mt-2 animate-pulse"></div>
-          </div>
+      {/* Scroll Indicator - positioned relative to section */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="w-6 h-10 border-2 border-muted-foreground rounded-2xl flex justify-center">
+          <div className="w-1 h-3 bg-muted-foreground rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>
