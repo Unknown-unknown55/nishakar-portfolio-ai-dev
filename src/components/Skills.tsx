@@ -23,7 +23,7 @@ const Skills = () => {
     {
       title: "Web Development",
       icon: Globe,
-      skills: ["React.js", "Django", "FastAPI", "Node.js", "Express.js"],
+      skills: ["React.js", "Django", "FastAPI"],
       color: "text-success",
       bgColor: "bg-success/10"
     },
@@ -44,7 +44,7 @@ const Skills = () => {
     {
       title: "Cloud & DevOps",
       icon: Server,
-      skills: ["AWS", "Google Cloud", "Azure", "Firebase", "Vercel"],
+      skills: ["AWS", "Google Cloud", "Azure", "Vercel"],
       color: "text-accent",
       bgColor: "bg-accent/10"
     },
