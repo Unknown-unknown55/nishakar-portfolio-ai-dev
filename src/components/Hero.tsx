@@ -15,13 +15,13 @@ const Hero = () => {
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
         {/* Profile Image */}
         <div className="relative inline-block">
-          <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-40 md:h-40 mx-auto mb-8 relative">
+          <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-48 md:h-48 mx-auto mb-8 relative">
             <img
               src={profileImage}
               alt="Nishakar T - AI/ML Engineering Student"
-              className="w-full h-full rounded-full object-cover border-4 border-primary hero-glow animate-glow"
+              className="w-full h-full rounded-full object-cover border-4 border-white/30 relative z-10 shadow-2xl"
             />
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 animate-pulse"></div>
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/10 to-accent/10 animate-pulse -z-10"></div>
           </div>
         </div>
 
