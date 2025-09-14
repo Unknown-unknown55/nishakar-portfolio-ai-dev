@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
         {/* Profile Image */}
         <div className="relative inline-block">
-          <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-8 relative">
+          <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-40 md:h-40 mx-auto mb-8 relative">
             <img
               src={profileImage}
               alt="Nishakar T - AI/ML Engineering Student"
